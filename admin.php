@@ -11,9 +11,7 @@
 	//kiem tra, neu user chua dang nhap thi yeu cau dang nhap. Neu user da dang nhap thi load layout admin
 	if(isset($_SESSION["c_username"]) == false){
 		//load mvc login
-        $controller = isset($_GET["controller"]) && $_GET["controller"] === "register"  ? $_GET["controller"]:"login";
-
-		include "controller/backend/controller_$controller.php";
+		include "controller/backend/controller_login.php";
 	}else{
 		//lay controller de gan thanh file vat ly. VD: controller=logout -> se gan thanh duong dan: controller_logout.php
 		$controller = isset($_GET["controller"])?$_GET["controller"]:"home";
