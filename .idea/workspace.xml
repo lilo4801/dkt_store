@@ -26,10 +26,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe9fd66e-c6f0-44c9-98b5-fedec49c5c04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/backend/controller_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/backend/controller_product_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/backend/view_home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/backend/view_index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/backend/view_product_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/backend/controller_home.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/backend/view_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/chi-tiet-san-pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/chi-tiet-san-pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/dang-ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/dang-ky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/dang-nhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/dang-nhap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/gio-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/gio-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/197722/assets/email7793.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/197722/assets/email7793.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/197722/assets/support-online7793.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/197722/assets/support-online7793.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/ajax-cart221b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/ajax-cart221b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/bw-statistics-style221b.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/bw-statistics-style221b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/elevate-zoom221b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/elevate-zoom221b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/favicon221b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/favicon221b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/font-awesome.min221b.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/font-awesome.min221b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/grabbing.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/grabbing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/ico-service-1221b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/ico-service-1221b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/ico-service-2221b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/ico-service-2221b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/ico-service-3221b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/ico-service-3221b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/jquery.min221b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/jquery.min221b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/logo221b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/logo221b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/main221b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/main221b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/owl.carousel.min221b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/owl.carousel.min221b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/owl.carousel221b.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/owl.carousel221b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/payments-method221b.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/payments-method221b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/responsive-menu221b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/responsive-menu221b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/responsive221b.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/responsive221b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/slideshow1221b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/slideshow1221b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/styles.scss221b.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/styles.scss221b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/100/047/633/themes/517833/assets/widebanner221b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/100/047/633/themes/517833/assets/widebanner221b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/assets/themes_support/api.jquerya87f.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/assets/themes_support/api.jquerya87f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/assets/themes_support/bizweb_statsc164.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/assets/themes_support/bizweb_statsc164.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/000000000010020041-senheiser-hd449--1-9-2-151336.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/000000000010020041-senheiser-hd449--1-9-2-151336.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/1lap.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/1lap.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/banner03d5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/banner03d5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/chicago.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/chicago.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/ip6s.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/ip6s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/iphone-6-gray1-rbmk-pu1941.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/iphone-6-gray1-rbmk-pu1941.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/iphone-6s---6s-plus-hong-color-x96i-91-uw67-ts-m58z-4y.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/iphone-6s---6s-plus-hong-color-x96i-91-uw67-ts-m58z-4y.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/la.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/la.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/ledsam4520.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/ledsam4520.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/llv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/llv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/microbceb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/microbceb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/msc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/msc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/ny.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/ny.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/reviews.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/reviews.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/samsung-sl-m2020f063.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/samsung-sl-m2020f063.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/slideshow1221b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/slideshow1221b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/tainghe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/tainghe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/images/tvlg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/tvlg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/large/100/047/633/articles/1lapd47b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/large/100/047/633/articles/1lapd47b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/large/100/047/633/articles/ip6s3f8a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/large/100/047/633/articles/ip6s3f8a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/large/100/047/633/articles/llv7032.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/large/100/047/633/articles/llv7032.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/large/100/047/633/articles/reviewsbeec.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/large/100/047/633/articles/reviewsbeec.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/large/100/047/633/articles/tainghe6d96.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/large/100/047/633/articles/tainghe6d96.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/large/100/047/633/articles/tvlg22a8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/large/100/047/633/articles/tvlg22a8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/000000000010020041-senheiser-hd449--1-9-2-151336.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/000000000010020041-senheiser-hd449--1-9-2-151336.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/000000000010021355-may-tinh-xach-tay-lenovo-ideapad-flex-2-14e284.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/000000000010021355-may-tinh-xach-tay-lenovo-ideapad-flex-2-14e284.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/66s706a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/66s706a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/acer-e5-411-c2pe-010d0b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/acer-e5-411-c2pe-010d0b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/canon-mg3570-012d43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/canon-mg3570-012d43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/canon-mp237-017de3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/canon-mp237-017de3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/dell-l3540b-014089.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/dell-l3540b-014089.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/dell_vostro_14_5480_012c85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/dell_vostro_14_5480_012c85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/galaxy-s6-edge--vang4dea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/galaxy-s6-edge--vang4dea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/hp_probook_440_01666c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/hp_probook_440_01666c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/iphone-6-gray1-rbmk-pu1941.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/iphone-6-gray1-rbmk-pu1941.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/lcdsony798d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/lcdsony798d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/ledsam4520.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/ledsam4520.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/lg4c3ee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/lg4c3ee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/may-tin-xach-tay-acer-nitro-vn7-571g-016343.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/may-tin-xach-tay-acer-nitro-vn7-571g-016343.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/may-tinh-xach-tay-asus-zenbook-ux305f-fc089h-01f474.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/may-tinh-xach-tay-asus-zenbook-ux305f-fc089h-01f474.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/microbceb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/microbceb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/msc234a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/msc234a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/proda53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/proda53.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/s6blak9d68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/s6blak9d68.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/samsung-sl-m2020f063.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/samsung-sl-m2020f063.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/sony-xperia-z5-premium-dual-e6883-goldcb4a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/sony-xperia-z5-premium-dual-e6883-goldcb4a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/tivileddbdb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/tivileddbdb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/public/frontend/thumb/medium/100/047/633/products/tp550ld-cj084h-01_rabz-50_ieap-cm_dv21-0ffd16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/thumb/medium/100/047/633/products/tp550ld-cj084h-01_rabz-50_ieap-cm_dv21-0ffd16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/san-pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/san-pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/tin-tuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/tin-tuc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +155,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\dkt_store\public\frontend" />
+      <recent name="D:\project\dkt_store\public" />
+      <recent name="D:\project\dkt_store\public\" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\DKTSTORE" />
     </key>
@@ -80,7 +177,8 @@
       <workItem from="1661304894427" duration="6285000" />
       <workItem from="1661322519937" duration="74000" />
       <workItem from="1661322601911" duration="448000" />
-      <workItem from="1661335815373" duration="625000" />
+      <workItem from="1661335815373" duration="1897000" />
+      <workItem from="1661391396012" duration="3602000" />
     </task>
     <task id="LOCAL-00001" summary="rename DB and add gitignore">
       <created>1661314346746</created>
@@ -132,6 +230,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1661335812918" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1661394746193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661394746193" />
     <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1661314412382">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>

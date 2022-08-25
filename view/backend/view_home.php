@@ -1,8 +1,5 @@
 <!doctype html>
-<!--[if !IE]><!-->
 <html lang="vi">
-<!--<![endif]-->
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,25 +12,27 @@
     <meta name="description" content="DKT Store">
     <meta property="og:type" content="website">
     <meta property="og:title" content="DKT Store">
-    <meta property="og:image" content="public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361">
+    <meta property="og:image"
+          content="../../public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361">
     <meta property="og:image:secure_url"
-          content="public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361">
+          content="../../public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361">
     <meta property="og:url" content="index.html">
     <meta property="og:site_name" content="DKT Store">
     <link rel="canonical" href="index.html">
-    <link rel="shortcut icon" href="../../public/frontend/100/047/633/themes/517833/assets/favicon221b.png?1481775169361"
+    <link rel="shortcut icon"
+          href="../../public/frontend/100/047/633/themes/517833/assets/favicon221b.png?1481775169361"
           type="image/x-icon"/>
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=vietnamese" rel="stylesheet"> -->
     <link href='../../public/frontend/100/047/633/themes/517833/assets/font-awesome.min221b.css?1481775169361'
           rel='stylesheet' type='text/css'/>
-    <link href='../../public/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.css?1481775169361' rel='stylesheet'
-          type='text/css'/>
-    <link href='../../public/frontend/100/047/633/themes/517833/assets/owl.carousel221b.css?1481775169361' rel='stylesheet'
-          type='text/css'/>
-    <link href='../../public/frontend/100/047/633/themes/517833/assets/responsive221b.css?1481775169361' rel='stylesheet'
-          type='text/css'/>
-    <link href='../../public/frontend/100/047/633/themes/517833/assets/styles.scss221b.css?1481775169361' rel='stylesheet'
-          type='text/css'/>
+    <link href='../../public/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.css?1481775169361'
+          rel='stylesheet' type='text/css'/>
+    <link href='../../public/frontend/100/047/633/themes/517833/assets/owl.carousel221b.css?1481775169361'
+          rel='stylesheet' type='text/css'/>
+    <link href='../../public/frontend/100/047/633/themes/517833/assets/responsive221b.css?1481775169361'
+          rel='stylesheet' type='text/css'/>
+    <link href='../../public/frontend/100/047/633/themes/517833/assets/styles.scss221b.css?1481775169361'
+          rel='stylesheet' type='text/css'/>
     <script src='../../public/frontend/100/047/633/themes/517833/assets/jquery.min221b.js?1481775169361'
             type='text/javascript'></script>
     <script src='../../public/frontend/100/047/633/themes/517833/assets/bootstrap.min221b.js?1481775169361'
@@ -45,13 +44,13 @@
 <body class="index">
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=1780127515631166";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=1780127515631166";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <div id="fb-root"></div>
 <!-- header -->
 <header id="header">
@@ -62,9 +61,9 @@
                 <div class="col-xs-12 col-sm-6 col-md-6"><span><i class="fa fa-phone"></i> (04) 6674 2332</span>
                     <span><i class="fa fa-envelope-o"></i> <a href="mailto:support@mail.com">support@mail.com</a></span>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 customer"><a href="index.php?controller=login"><i
-                        class="fa fa-user"></i> Đăng nhập</a> <a href="index.php?controller=register"><i
-                        class="fa fa-user-plus"></i> Đăng ký</a></div>
+                <div class="col-xs-12 col-sm-6 col-md-6 customer">
+                    <a href="index.php?controller=login"><i class="fa fa-user"></i> Đăng nhập</a>
+                    <a href="index.php?controller=register"><i class="fa fa-user-plus"></i> Đăng ký</a></div>
             </div>
         </div>
     </div>
@@ -74,8 +73,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-3 logo "><a href="index.html"> <img
-                        src="../../public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361"
-                        alt="DKT Store" title="DKT Store" class="img-responsive"> </a></div>
+                                src="../../public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361"
+                                alt="DKT Store" title="DKT Store" class="img-responsive"> </a></div>
                 <div class="col-xs-12 col-sm-12 col-md-6 header-search">
                     <script type="text/javascript">
                         function search() {
@@ -92,22 +91,22 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 mini-cart">
                     <div class="wrapper-mini-cart"><span class="icon"><i class="fa fa-shopping-cart"></i></span> <a
-                            href="cart"> <span class="mini-cart-count"> 1 </span> sản phẩm <i
-                            class="fa fa-caret-down"></i></a>
+                                href="index.php?controller=order"> <span class="mini-cart-count"> 1 </span> sản phẩm <i
+                                    class="fa fa-caret-down"></i></a>
                         <div class="content-mini-cart">
                             <div class="has-items">
                                 <ul class="list-unstyled">
                                     <li class="clearfix" id="item-1853038">
                                         <div class="image"><a href="index.php?controller=product_detail&id=5"> <img
-                                                alt="Sản phẩm 2"
-                                                src="public/upload/product/1494416685000000000010021355-may-tinh-xach-tay-lenovo-ideapad-flex-2-14e284.jpg"
-                                                title="Sản phẩm 2" class="img-responsive"> </a></div>
+                                                        alt="Sản phẩm 2"
+                                                        src="public/upload/product/1494416685000000000010021355-may-tinh-xach-tay-lenovo-ideapad-flex-2-14e284.jpg"
+                                                        title="Sản phẩm 2" class="img-responsive"> </a></div>
                                         <div class="info">
                                             <h3><a href="index.php?controller=product_detail&id=5">Sản phẩm 2</a></h3>
                                             <p>1 x 2,000,000₫</p>
                                         </div>
                                         <div><a href="index.php?controller=cart&act=delete&id=5"> <i
-                                                class="fa fa-times"></i></a></div>
+                                                        class="fa fa-times"></i></a></div>
                                     </li>
                                 </ul>
                                 <a href="index.php?controller=checkout" class="button">Thanh toán</a></div>
@@ -128,7 +127,7 @@
                         <li><a href="index.php?controller=lienhe">Liên hệ</a></li>
                     </ul>
                     <a href="javascript:void(0);" class="toggle-main-menu hidden-md hidden-lg"> <i
-                            class="fa fa-bars"></i> </a>
+                                class="fa fa-bars"></i> </a>
                     <ul class="list-unstyled mobile-main-menu hidden-md hidden-lg" style="display:none">
                         <li class="active"><a href="index.php">Trang chủ</a></li>
                         <li><a href="index.php?controller=gioithieu">Giới thiệu</a></li>
@@ -144,60 +143,24 @@
 <div class="content">
     <div class="container">
         <h1 style="display:none;">DKT Store</h1>
-        <!-- category product -->
-        <div class="slideshow">
-            <div class="row">
-                <div class="col-md-3 col-xs-12 hidden-xs hidden-sm">
-                    <aside class="aside-category">
-                        <h3><i class="fa fa-bars"></i>&nbsp;&nbsp; Danh mục sản phẩm</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="index.php?controller=product&id=1">Sữa Vinamilk</a></li>
-                            <li><a href="index.php?controller=product&id=2">Sữa Alaska</a></li>
-                            <li><a href="index.php?controller=product&id=3">Sữa Nutifood</a></li>
-                            <li><a href="index.php?controller=product&id=4">Sữa XO</a></li>
-                            <li><a href="index.php?controller=product&id=5">Sữa Abbott</a></li>
-                            <li><a href="index.php?controller=product&id=6">Sữa Zin Zin</a></li>
-                            <li><a href="index.php?controller=product&id=7">Sữa Mộc Châu</a></li>
-                            <li><a href="index.php?controller=product&id=9">Sữa Ông Thọ</a></li>
-                        </ul>
-                    </aside>
-                </div>
-                <div class="col-md-9 col-xs-12 col-sm-12">
-                    <div class="owl-slider">
-                        <div class="item">
-                            <!-- ============================ -->
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                <!-- Indicators -->
 
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarouse0" data-slide-to="0"></li>
-                                    <li data-target="#myCarouse1" data-slide-to="1"></li>
-                                    <li data-target="#myCarouse2" data-slide-to="2"></li>
-                                    <li data-target="#myCarouse3" data-slide-to="3"></li>
-                                </ol>
-
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
-                                    <div class="item active"><img src="../../public/frontend/images/la.jpg" alt="slide 1">
-                                    </div>
-                                    <div class="item "><img src="../../public/frontend/images/slideshow1221b.jpg"
-                                                            alt="Slide 2"></div>
-                                    <div class="item "><img src="../../public/frontend/images/chicago.jpg" alt="Slide 3">
-                                    </div>
-                                    <div class="item "><img src="../../public/frontend/images/ny.jpg" alt="Slide 4"></div>
-                                </div>
-
-                                <!-- Left and right controls -->
-                            </div>
-                            <!-- ============================ -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end category product -->
         <div class="row">
             <div class="col-xs-12 col-md-3">
+                <!-- category product -->
+                <aside class="aside-category">
+                    <h3><i class="fa fa-bars"></i>&nbsp;&nbsp; Danh mục sản phẩm</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="san-pham-noi-bat">Sản phẩm nổi bật</a></li>
+                        <li><a href="san-pham-khuyen-mai">Sản phẩm khuyến mãi</a></li>
+                        <li><a href="dien-thoai-di-dong">Điện thoại di động</a></li>
+                        <li><a href="laptop">Laptop</a></li>
+                        <li><a href="tivi">Tivi</a></li>
+                        <li><a href="tai-nghe">Tai nghe</a></li>
+                        <li><a href="am-thanh">Âm thanh</a></li>
+                        <li><a href="may-van-phong">Máy văn phòng</a></li>
+                    </ul>
+                </aside>
+                <!-- end category product -->
                 <!-- end support -->
                 <div class="online_support block">
                     <div class="new_title">
@@ -227,13 +190,13 @@
                             <!-- list hot news -->
                             <div class="item">
                                 <div class="article"><a href="index.php?controller=news_detail&id=20" class="image">
-                                    <img src="../../public/frontend/images/chicago.jpg"
-                                         alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         class="img-responsive"> </a>
+                                        <img src="../../public/frontend/images/chicago.jpg"
+                                             alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             class="img-responsive"> </a>
                                     <div class="info">
                                         <h3><a href="index.php?controller=news_detail&id=20">Mua iPhone 6s và iPhone 6s
-                                            Plus chính hãng ở đâu?</a></h3>
+                                                Plus chính hãng ở đâu?</a></h3>
                                         <p class="desc">
                                         <p>X-37B c&oacute; thể triển khai như vũ kh&iacute; ti&ecirc;u diệt vệ tinh của
                                             đối phương, hoặc thả vũ kh&iacute; động năng đến bất kỳ vị tr&iacute; n&agrave;o
@@ -246,13 +209,13 @@
                             <!-- list hot news -->
                             <div class="item">
                                 <div class="article"><a href="index.php?controller=news_detail&id=19" class="image">
-                                    <img src="../../public/frontend/images/chicago.jpg"
-                                         alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         class="img-responsive"> </a>
+                                        <img src="../../public/frontend/images/chicago.jpg"
+                                             alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             class="img-responsive"> </a>
                                     <div class="info">
                                         <h3><a href="index.php?controller=news_detail&id=19">Mẹo in văn bản từ iPhone,
-                                            iPad không phải ai cũng biết@</a></h3>
+                                                iPad không phải ai cũng biết@</a></h3>
                                         <p class="desc">
                                         <p>(D&acirc;n tr&iacute;) - Nếu bạn l&agrave; mẫu người th&iacute;ch sử dụng
                                             iPhone hoặc iPad để l&agrave;m việc, ắt hẳn ch&uacute;ng ta từng c&oacute;
@@ -265,13 +228,13 @@
                             <!-- list hot news -->
                             <div class="item">
                                 <div class="article"><a href="index.php?controller=news_detail&id=17" class="image">
-                                    <img src="../../public/frontend/images/chicago.jpg"
-                                         alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         class="img-responsive"> </a>
+                                        <img src="../../public/frontend/images/chicago.jpg"
+                                             alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             class="img-responsive"> </a>
                                     <div class="info">
                                         <h3><a href="index.php?controller=news_detail&id=17">Samsung và Oppo tiếp tục
-                                            thống trị thị trường đầu năm 2017 tại Việt Nam</a></h3>
+                                                thống trị thị trường đầu năm 2017 tại Việt Nam</a></h3>
                                         <p class="desc">
                                         <p>(D&acirc;n tr&iacute;) - Hầu hết c&aacute;c sản phẩm nằm trong top 10 b&aacute;n
                                             chạy th&aacute;ng 2 v&agrave; nửa đầu th&aacute;ng 3 năm 2017 của c&aacute;c
@@ -285,13 +248,13 @@
                             <!-- list hot news -->
                             <div class="item">
                                 <div class="article"><a href="index.php?controller=news_detail&id=16" class="image">
-                                    <img src="../../public/frontend/images/chicago.jpg"
-                                         alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         class="img-responsive"> </a>
+                                        <img src="../../public/frontend/images/chicago.jpg"
+                                             alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             class="img-responsive"> </a>
                                     <div class="info">
                                         <h3><a href="index.php?controller=news_detail&id=16">Những dấu hiệu cho thấy
-                                            chiếc tủ lạnh nhà bạn đang gặp vấn đề</a></h3>
+                                                chiếc tủ lạnh nhà bạn đang gặp vấn đề</a></h3>
                                         <p class="desc">
                                         <p>(D&acirc;n tr&iacute;) - Mặc d&ugrave; l&agrave; một thiết bị điện tử với độ
                                             bền cao, thậm ch&iacute; c&oacute; thể l&ecirc;n tới 10-20 năm, nhưng điều đ&oacute;
@@ -305,13 +268,13 @@
                             <!-- list hot news -->
                             <div class="item">
                                 <div class="article"><a href="index.php?controller=news_detail&id=15" class="image">
-                                    <img src="../../public/frontend/images/chicago.jpg"
-                                         alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
-                                         class="img-responsive"> </a>
+                                        <img src="../../public/frontend/images/chicago.jpg"
+                                             alt="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             title="Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?"
+                                             class="img-responsive"> </a>
                                     <div class="info">
                                         <h3><a href="index.php?controller=news_detail&id=15">Oppo khởi chạy chương trình
-                                            đặt hàng trước F3 Plus tại Việt Nam@</a></h3>
+                                                đặt hàng trước F3 Plus tại Việt Nam@</a></h3>
                                         <p class="desc">
                                         <p>Sau ng&agrave;y ra mắt ch&iacute;nh thức v&agrave;o 23/3 tới, Oppo sẽ tiến h&agrave;nh
                                             chương tr&igrave;nh đặt h&agrave;ng trước F3 Plus từ ng&agrave;y 24/3 đến
@@ -333,99 +296,46 @@
             </div>
             <div class="col-xs-12 col-md-9">
                 <!-- main -->
-                <div class="product-detail" itemscope itemtype="http://schema.org/Product">
-                    <meta itemprop="url" content="//dktstore-theme.bizwebvietnam.net/microsoft-lumia-950-xl-mau-den">
-                    <meta itemprop="image" content="public/frontend/images/msc.jpg?v=1469340617533">
-                    <meta itemprop="shop-currency" content="VND">
-                    <div class="top">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6 product-image">
-                                <div class="featured-image"><img src="../../public/frontend/images/msc.jpg?v=1469340617533"
-                                                                 class="img-responsive" id="large-image"
-                                                                 itemprop="image"
-                                                                 data-zoom-image="//bizweb.dktcdn.net/100/047/633/products/msc.jpg?v=1469340617533"
+                <div class="owl-slider">
+                    <div class="item">
+                        <!-- ============================ -->
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
 
-                                                                 alt="MICROSOFT LUMIA 950 XL"
-                                /></div>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active"> <img src="../../public/frontend/images/la.jpg" alt="Los Angeles"> </div>
+                                <div class="item"> <img src="../../public/frontend/images/slideshow1221b.jpg" alt="Los Angeles"> </div>
+                                <div class="item"> <img src="../../public/frontend/images/chicago.jpg" alt="Chicago"> </div>
+                                <div class="item"> <img src="../../public/frontend/images/ny.jpg" alt="New York"> </div>
                             </div>
-                            <div class="col-xs-12 col-md-6 info">
-                                <h1 itemprop="name">MICROSOFT LUMIA 950 XL</h1>
-                                <p class="sku">Mã sản phẩm:&nbsp; <span></span></p>
-                                <p class="vendor">Nhà sản xuất:&nbsp; <span>MICROSOFT</span></p>
-                                <p itemprop="price" class="price-box product-price-box"><span
-                                        class="special-price"> <span
-                                        class="price product-price"> 14.500.000₫ </span> </span></p>
-                                <p class="desc rte"> Điện thoại Microsoft Lumia 950 XL là chiếc Lumia tiếp theo sắp được
-                                    ra mắt tại thị trường Việt Nam, nhận được nhiều sự quan tâm của người dùng. Điểm nổi
-                                    bật nhất ở chiếc smartphone cao cấp này...</p>
-                                <form action="/cart/add" method="post" enctype="multipart/form-data"
-                                      class="product-form">
-                                    <select id="product-selectors" name="variantId" style="display:none">
-                                        <option selected="selected" value="1853207">Đen - 15.990.000₫</option>
-                                        <option value="1853286">Trắng - 14.500.000₫</option>
-                                    </select>
-                                    <div class="quantity">
-                                        <label>Số lượng</label>
-                                        <input type="number" id="qty" name="quantity" value="1" min="1"
-                                               class="input-control" required="Không thể để trống">
-                                    </div>
-                                    <div class="action-btn">
-                                        <button class="button product-add-to-cart">Cho vào giỏ hàng</button>
-                                    </div>
-                                </form>
-                            </div>
+
+                            <!-- Left and right controls -->
                         </div>
-                    </div>
-                    <div class="middle">
-                        <ul class="list-unstyled navtabs">
-                            <li><a href="#tab1" class="head-tabs head-tab1 active" data-src=".head-tab1">Chi tiết sản
-                                phẩm</a></li>
-                        </ul>
-                        <div class="tab-container">
-                            <!-- chi tiet -->
-                            <div id="tab1" class="content-tabs">
-                                <div class="rte">
-                                    <p style="text-align: justify;">Điện thoại Microsoft Lumia 950 XL là chiếc Lumia
-                                        tiếp theo sắp được ra mắt tại thị trường Việt Nam, nhận được nhiều sự quan tâm
-                                        của người dùng. Điểm nổi bật nhất ở chiếc smartphone cao cấp này là Lumia 950 XL
-                                        chạy trên hệ điều hành Windows Phone 10 mới nhất. Tính năng Windows Continuum
-                                        biến chiếc điện thoại của bạn có thể sử dụng như một chiếc PC trên màn hình lớn
-                                        cùng cấu hình mạnh mẽ, chụp ảnh xuất sắc cũng như quay phim 4K sẽ khiến bạn hoàn
-                                        toàn bị thuyết phục khi sở hữu.</p>
-                                    <p style="text-align: justify;"><strong>ĐẶC ĐIỂM NỔI BẬT</strong></p>
-                                    <ul>
-                                        <li style="text-align: justify;">Hệ điều hành Windows Phone 10 mới nhất, nhanh
-                                            và tối ưu
-                                        </li>
-                                        <li style="text-align: justify;">Màn hình WQHD (2560 x 1440) kích thước 5.7
-                                            inches với cảm ứng siêu nhạy
-                                        </li>
-                                        <li style="text-align: justify;">Camera "khủng" 20MP, quay phim 4K; Camera trước
-                                            góc rộng 5MP quay phim Full HD
-                                        </li>
-                                        <li style="text-align: justify;">Chip 8 nhân Snapdragon 810 mạnh mẽ, Ram 3GB
-                                        </li>
-                                        <li style="text-align: justify;">Bộ nhớ trong 32GB, có khe cắm thẻ nhớ ngoài (hỗ
-                                            trợ tối đa 200GB)
-                                        </li>
-                                        <li style="text-align: justify;">Dung lượng pin 3340 mAh cho thời gian sử dụng
-                                            dài ngày
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- chi tiet -->
-                        </div>
+                        <!-- ============================ -->
                     </div>
                 </div>
+                <?php
+                if (file_exists("controller/backend/$controller"))
+                    include "controller/backend/$controller";
+                ?>
+
+
+
 
                 <!-- end main -->
             </div>
         </div>
         <!-- adv -->
         <div class="widebanner"><a href="#"><img
-                src="../../public/frontend/100/047/633/themes/517833/assets/widebanner221b.jpg?1481775169361" alt="#"
-                class="img-responsive"></a></div>
+                        src="../../public/frontend/100/047/633/themes/517833/assets/widebanner221b.jpg?1481775169361"
+                        alt="#" class="img-responsive"></a></div>
         <!-- end adv -->
 
     </div>
@@ -435,8 +345,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-4">
                 <div class="image"><img
-                        src="../../public/frontend/100/047/633/themes/517833/assets/ico-service-1221b.png?1481775169361"
-                        alt="Giao hàng miễn phí" title="Giao hàng miễn phí" class="img-responsive"></div>
+                            src="../../public/frontend/100/047/633/themes/517833/assets/ico-service-1221b.png?1481775169361"
+                            alt="Giao hàng miễn phí" title="Giao hàng miễn phí" class="img-responsive"></div>
                 <div class="info">
                     <h3>Giao hàng miễn phí</h3>
                     <p>Miễn phí giao hàng trong nội thành Hà Nội</p>
@@ -444,8 +354,8 @@
             </div>
             <div class="col-xs-12 col-sm-4">
                 <div class="image"><img
-                        src="../../public/frontend/100/047/633/themes/517833/assets/ico-service-2221b.png?1481775169361"
-                        class="img-responsive" alt="Khuyến mại" title="Khuyến mại"></div>
+                            src="../../public/frontend/100/047/633/themes/517833/assets/ico-service-2221b.png?1481775169361"
+                            class="img-responsive" alt="Khuyến mại" title="Khuyến mại"></div>
                 <div class="info">
                     <h3>Khuyến mại</h3>
                     <p>Khuyến mại sản phẩm nếu đơn hàng trên 1.000.000đ</p>
@@ -453,8 +363,8 @@
             </div>
             <div class="col-xs-12 col-sm-4">
                 <div class="image"><img
-                        src="../../public/frontend/100/047/633/themes/517833/assets/ico-service-3221b.png?1481775169361"
-                        class="img-responsive" alt="Hoàn trả lại tiền" title="Hoàn trả lại tiền"></div>
+                            src="../../public/frontend/100/047/633/themes/517833/assets/ico-service-3221b.png?1481775169361"
+                            class="img-responsive" alt="Hoàn trả lại tiền" title="Hoàn trả lại tiền"></div>
                 <div class="info">
                     <h3>Hoàn trả lại tiền</h3>
                     <p>Nếu sản phẩm không đảm bảo chất lượng hoặc sản phẩm không đúng miêu tả</p>
@@ -505,8 +415,8 @@
                 </div>
             </div>
             <div class="payments-method"><img
-                    src="../../public/frontend/100/047/633/themes/517833/assets/payments-method221b.png?1481775169361"
-                    alt="Phương thức thanh toán" title="Phương thức thanh toán"></div>
+                        src="../../public/frontend/100/047/633/themes/517833/assets/payments-method221b.png?1481775169361"
+                        alt="Phương thức thanh toán" title="Phương thức thanh toán"></div>
         </div>
     </div>
     <div class="bottom-footer">
