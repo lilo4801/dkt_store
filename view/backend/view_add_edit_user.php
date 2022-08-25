@@ -5,7 +5,8 @@
 			<form class="form-horizontal" method="post" action="<?php echo $form_action; ?>">
 				<div class="form-group">
 					<label class="col-md-2">Username</label>
-					<div class="col-md-10"><input type="text" name="c_username" class="form-control" <?php echo isset($arr->c_username)?"disabled":"required"; ?> value="<?php echo isset($arr->c_username)?$arr->c_username:""; ?>"></div>
+					<div class="col-md-10"><input type="text" name="c_username" class="form-control"
+                            <?php echo isset($arr->c_username)?"disabled":"required"; ?> value="<?php echo isset($arr->c_username)?$arr->c_username:""; ?>"></div>
 				</div>
 				<div class="form-group">
 					<label class="col-md-2">Password</label>

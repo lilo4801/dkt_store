@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html en="vi">
 <head>
-    <title>Admin</title>
+    <title>DKT Store</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="public/backend/css/bootstrap.min.css">
 
@@ -53,7 +53,7 @@
                         <a href="index.php?controller=login"><i class="fa fa-user"></i> Đăng nhập</a>
                         <a href="index.php?controller=register"><i class="fa fa-user-plus"></i> Đăng ký</a>
                     <?php } else { ?>
-                        <a href="index.php?controller=user"><i class="fa fa-user"></i>User</a>
+                        <a href="index.php?controller=customer&act=edit&id=<?php if(isset($_SESSION['c_username']) == true) echo $_SESSION["c_username"] ?>"><i class="fa fa-user"></i>User</a>
                         <a href="index.php?controller=logout"><i class="fa fa-user"></i>Logout</a>
 
                     <?php } ?>

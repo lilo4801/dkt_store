@@ -15,11 +15,11 @@
                      //kiem tra password
                      if($password == $confirmPassword){
                          //dang nhap thanh cong
-                         $_SESSION["c_username"] = $email;
+
                          $c_password_mod = md5($password);
                          $this->model->execute("insert into tbl_customer (hovaten,email,password,diachi,dienthoai) values ('$hovaten','$email','$c_password_mod','$diachi','$dienthoai')");
                          //di chuyen den trang can chi dinh
-                         header("location:index.php");
+                         header("location:index.php?controller=login");
                      }else{
                          header("location:index.php?controller=register&err=invalid");
                      }
