@@ -17,7 +17,7 @@
 					//thuc thi truy van
 					$this->model->execute("delete from tbl_news where pk_news_id=$id");
 					header("location:admin.php?controller=news");
-				break;
+				    break;
 			}
 			
 			//-------------

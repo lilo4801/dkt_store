@@ -3,6 +3,14 @@
     <div class="row" style="margin-top:50px;">
         <div class="col-md-2"></div>
         <div class="col-md-8">
+            <?php
+            if (isset($_GET["msg"]) && $_GET["msg"] == "success") {
+                ?>
+
+                <div class="alert alert-success">
+                    <strong>Update Success!</strong>
+                </div>
+            <?php } ?>
             <div class="wrapper-form">
 
                 <form method='post' action="<?php echo $form_action ?>">
@@ -11,7 +19,7 @@
                         <label>Họ và tên:</label>
                         <input type="text" name="hovaten" class="input-control"
                                required
-                                 value="<?php echo isset($customer->hovaten) ? $customer->hovaten : "" ?>"
+                               value="<?php echo isset($customer->hovaten) ? $customer->hovaten : "" ?>"
                         >
                     </div>
                     <div class="form-group">
@@ -24,7 +32,7 @@
                     <div class="form-group">
                         <label>Điện thoại:</label>
                         <input type="text" name="dienthoai" class="input-control"
-                            required
+                               required
 
                                value="<?php echo isset($customer->dienthoai) ? $customer->dienthoai : "" ?>"
 

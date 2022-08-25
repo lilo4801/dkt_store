@@ -34,7 +34,7 @@ class controller_customer extends controller
                     $this->model->execute("update tbl_customer set hovaten='$hovaten',diachi = '$diachi'
                                             ,dienthoai='$dienthoai' where customer_id=$id");
                 }
-                header("location:index.php?controller=customer&act=edit&id=$id");
+                header("location:index.php?controller=customer&act=edit&id=$id&msg=success");
                 break;
         }
 
