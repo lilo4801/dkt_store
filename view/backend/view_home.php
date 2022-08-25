@@ -16,7 +16,7 @@
           content="../../public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361">
     <meta property="og:image:secure_url"
           content="../../public/frontend/100/047/633/themes/517833/assets/logo221b.png?1481775169361">
-    <meta property="og:url" content="index.html">
+    <!--    <meta property="og:url" content="index.html">-->
     <meta property="og:site_name" content="DKT Store">
     <link rel="canonical" href="index.html">
     <link rel="shortcut icon"
@@ -51,7 +51,6 @@
         js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=1780127515631166";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-<div id="fb-root"></div>
 <!-- header -->
 <header id="header">
     <!-- top header -->
@@ -62,8 +61,13 @@
                     <span><i class="fa fa-envelope-o"></i> <a href="mailto:support@mail.com">support@mail.com</a></span>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 customer">
+                    <?php
+                    if (isset($_SESSION["c_username"]) === false) { ?>
                     <a href="index.php?controller=login"><i class="fa fa-user"></i> Đăng nhập</a>
                     <a href="index.php?controller=register"><i class="fa fa-user-plus"></i> Đăng ký</a></div>
+                <?php } else { ?>
+                    user
+                <?php } ?>
             </div>
         </div>
     </div>
@@ -310,10 +314,13 @@
 
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
-                                <div class="item active"> <img src="../../public/frontend/images/la.jpg" alt="Los Angeles"> </div>
-                                <div class="item"> <img src="../../public/frontend/images/slideshow1221b.jpg" alt="Los Angeles"> </div>
-                                <div class="item"> <img src="../../public/frontend/images/chicago.jpg" alt="Chicago"> </div>
-                                <div class="item"> <img src="../../public/frontend/images/ny.jpg" alt="New York"> </div>
+                                <div class="item active"><img src="../../public/frontend/images/la.jpg"
+                                                              alt="Los Angeles"></div>
+                                <div class="item"><img src="../../public/frontend/images/slideshow1221b.jpg"
+                                                       alt="Los Angeles"></div>
+                                <div class="item"><img src="../../public/frontend/images/chicago.jpg" alt="Chicago">
+                                </div>
+                                <div class="item"><img src="../../public/frontend/images/ny.jpg" alt="New York"></div>
                             </div>
 
                             <!-- Left and right controls -->
@@ -325,8 +332,6 @@
                 if (file_exists("controller/backend/$controller"))
                     include "controller/backend/$controller";
                 ?>
-
-
 
 
                 <!-- end main -->
@@ -461,8 +466,8 @@
             <p class="success-message btn-go-to-cart"><span style="color:#789629">&#10004;</span> Đã được thêm vào giỏ
                 hàng.</p>
             <div class="actions">
-                <button class="button" onclick="window.location='cart'">Đi tới giỏ hàng</button>
-                <button class="button" onclick="window.location='checkout'">Thanh toán</button>
+                <!--                <button class="button" onclick="window.location='cart'">Đi tới giỏ hàng</button>-->
+                <!--                <button class="button" onclick="window.location='checkout'">Thanh toán</button>-->
             </div>
         </div>
         <a href="javascript:void(0)" class="close-modal"><i class="fa fa-times"></i></a></div>

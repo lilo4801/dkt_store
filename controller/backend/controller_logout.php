@@ -3,7 +3,7 @@
 		public function __construct(){
 			//huy session
 			unset($_SESSION["c_username"]);
-			header("location:admin.php");
+			header("location:index.php");
 		}
 	}
 	new controller_logout();

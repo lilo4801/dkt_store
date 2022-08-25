@@ -4,7 +4,7 @@
     <div class="row" style="margin-top:50px;">
         <div class="col-md-6">
             <div class="wrapper-form">
-                <form method='post' action="">
+                <form method='post' action="<?php $form_action ?>">
                     <p class="title"><span>Đăng ký tài khoản</span></p>
                     <div class="form-group">
                         <label>Họ và tên:</label>
@@ -25,6 +25,10 @@
                     <div class="form-group">
                         <label>Mật khẩu:<b id="req">*</b></label>
                         <input type="password" name="password" class="input-control" required="">
+                    </div>
+                    <div class="form-group">
+                        <label>Nhập lại Mật khẩu:<b id="req">*</b></label>
+                        <input type="password" name="confirmPassword" class="input-control" required="">
                     </div>
                     <div class="form-group">
                         <input type="submit" class="button" value="Đăng ký">

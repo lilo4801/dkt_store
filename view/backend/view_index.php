@@ -1,6 +1,3 @@
-
-
-
 <div class="special-collection">
     <div class="tabs-container">
         <div class="clearfix">
