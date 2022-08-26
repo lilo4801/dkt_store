@@ -49,11 +49,11 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 customer">
                     <?php
-                    if (isset($_SESSION["c_username"]) === false) { ?>
+                    if (isset($_SESSION["customer_id"]) === false) { ?>
                         <a href="index.php?controller=login"><i class="fa fa-user"></i> Đăng nhập</a>
                         <a href="index.php?controller=register"><i class="fa fa-user-plus"></i> Đăng ký</a>
                     <?php } else { ?>
-                        <a href="index.php?controller=customer&act=edit&id=<?php if(isset($_SESSION['c_username']) == true) echo $_SESSION["c_username"] ?>"><i class="fa fa-user"></i>User</a>
+                        <a href="index.php?controller=customer&act=edit&id=<?php if(isset($_SESSION['c_username']) == true) echo $_SESSION["customer_id"] ?>"><i class="fa fa-user"></i>User</a>
                         <a href="index.php?controller=logout"><i class="fa fa-user"></i>Logout</a>
 
                     <?php } ?>
@@ -84,28 +84,10 @@
                     </form>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 mini-cart">
-                    <div class="wrapper-mini-cart"><span class="icon"><i class="fa fa-shopping-cart"></i></span> <a
-                            href="index.php?controller=order"> <span class="mini-cart-count"> 1 </span> sản phẩm <i
-                                class="fa fa-caret-down"></i></a>
-                        <div class="content-mini-cart">
-                            <div class="has-items">
-                                <ul class="list-unstyled">
-                                    <li class="clearfix" id="item-1853038">
-                                        <div class="image"><a href="index.php?controller=product_detail&id=5"> <img
-                                                    alt="Sản phẩm 2"
-                                                    src="./../public/upload/product/1494416685000000000010021355-may-tinh-xach-tay-lenovo-ideapad-flex-2-14e284.jpg"
-                                                    title="Sản phẩm 2" class="img-responsive"> </a></div>
-                                        <div class="info">
-                                            <h3><a href="index.php?controller=product_detail&id=5">Sản phẩm 2</a></h3>
-                                            <p>1 x 2,000,000₫</p>
-                                        </div>
-                                        <div><a href="index.php?controller=cart&act=delete&id=5"> <i
-                                                    class="fa fa-times"></i></a></div>
-                                    </li>
-                                </ul>
-                                <a href="index.php?controller=checkout" class="button">Thanh toán</a></div>
-                        </div>
-                    </div>
+                    <?php
+                    if (file_exists("controller/frontend/controller_order_layout.php"))
+                        include "controller/frontend/controller_order_layout.php";
+                    ?>
                 </div>
             </div>
         </div>
@@ -150,6 +132,7 @@
 
 
                     </ul>
+
                 </aside>
                 <!-- end category product -->
                 <!-- end support -->

@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-xs-12 col-md-6 product-image">
                 <div class="featured-image">
-                    <?php if($row->c_img != "" && file_exists("public/upload/product/".$row->c_img)){ ?>
+                    <?php if ($row->c_img != "" && file_exists("public/upload/product/" . $row->c_img)) { ?>
                         <img title="Sản phẩm ..."
                              src="public/upload/product/<?php echo $row->c_img; ?>"
                              class="img-responsive" id="large-image"
@@ -17,29 +17,26 @@
                         >
                     <?php } ?>
 
-                 </div>
+                </div>
             </div>
             <div class="col-xs-12 col-md-6 info">
-                <?php if(isset($row->c_hotproduct) && $row->c_hotproduct) { ?>
-                <p style="color: red;">hot</p>
+                <?php if (isset($row->c_hotproduct) && $row->c_hotproduct) { ?>
+                    <p style="color: red;">hot</p>
                 <?php } ?>
                 <p itemprop="price" class="price-box product-price-box"><span
-                        class="special-price"> <span
-                            class="price product-price"> <?php echo $row->c_price; ?> </span> </span></p>
+                            class="special-price"> <span
+                                class="price product-price"> <?php echo $row->c_price; ?> </span> </span></p>
                 <p class="desc rte"><?php echo $row->c_description; ?></p>
-                <form action="/cart/add" method="post" enctype="multipart/form-data"
+                <form method="post" action="index.php?controller=order&id=<?php echo $row->pk_product_id; ?>"
                       class="product-form">
-<!--                    <select id="product-selectors" name="variantId" style="display:none">-->
-<!--                        <option selected="selected" value="1853207">Đen - 15.990.000₫</option>-->
-<!--                        <option value="1853286">Trắng - 14.500.000₫</option>-->
-<!--                    </select>-->
+
                     <div class="quantity">
                         <label>Số lượng</label>
                         <input type="number" id="qty" name="quantity" value="1" min="1"
                                class="input-control" required="Không thể để trống">
                     </div>
                     <div class="action-btn">
-                        <button class="button product-add-to-cart">Cho vào giỏ hàng</button>
+                        <input type="submit" class="button">Cho vào giỏ hàng</input>
                     </div>
                 </form>
             </div>

@@ -26,9 +26,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe9fd66e-c6f0-44c9-98b5-fedec49c5c04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_order_layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_order_layout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/frontend/controller_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/frontend/controller_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/backend/controller_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/frontend/controller_category_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/frontend/controller_category_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/frontend/controller_detail_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/frontend/controller_detail_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/frontend/controller_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/frontend/controller_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/frontend/controller_logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/frontend/controller_logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/view_category_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/view_category_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/view_hotnews.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/view_hotnews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/view_layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/view_layout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/frontend/view_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/view_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/frontend/view_product_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/view_product_detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +102,7 @@
       <workItem from="1661322601911" duration="448000" />
       <workItem from="1661335815373" duration="1897000" />
       <workItem from="1661391396012" duration="20946000" />
-      <workItem from="1661477846424" duration="10379000" />
+      <workItem from="1661477846424" duration="22512000" />
     </task>
     <task id="LOCAL-00001" summary="rename DB and add gitignore">
       <created>1661314346746</created>
@@ -145,14 +158,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1661335812918" />
-    <state x="751" y="242" key="NewPhpClassDialog" timestamp="1661482262243">
+    <state x="751" y="242" key="NewPhpClassDialog" timestamp="1661499516008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="751" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661482262243" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1661485709322">
+    <state x="751" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661499516008" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1661499577636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661485709322" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661499577636" />
     <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1661314412382">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>

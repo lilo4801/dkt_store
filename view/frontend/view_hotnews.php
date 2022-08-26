@@ -10,7 +10,7 @@ foreach ($arr as $row) {
                 title="<?php echo $row->c_name; ?>"
                 class="img-responsive"> </a>
             <div class="info">
-                <h3><a href="index.php?controller=news_detail&id=15"><?php echo $row->c_name; ?></a></h3>
+                <h3><a href="index.php?controller=detail_news&id=<?php echo $row->pk_news_id ?>"><?php echo $row->c_name; ?></a></h3>
                 <p class="desc">
                 <p><?php echo $row->c_description; ?></p>
                 </p>

@@ -16,7 +16,8 @@
                             <div class="image">
                                 <a href="">
                                     <?php if($rows->c_img != "" && file_exists("public/upload/product/".$rows->c_img)){ ?>
-                                        <img title="Sản phẩm ..." alt="Sản phẩm 2" class="img-responsive" src="public/upload/product/<?php echo $rows->c_img; ?>" style="max-width: 100px;">
+                                        <img title="Sản phẩm ..." alt="Sản phẩm 2" class="img-responsive"
+                                             src="public/upload/product/<?php echo $rows->c_img;?>" style="max-width: 100px;">
                                     <?php } ?>
                                 </a>
                             </div>

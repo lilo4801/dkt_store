@@ -8,7 +8,8 @@ class controller_category_product extends controller
         parent::__construct();
         //-------------
         //so ban ghi tren trang
-        $record_per_page = 8;
+
+        $record_per_page =  100;
         //tinh tong so ban ghi
         $total_record = $this->model->num_rows("select * from tbl_category_product");
         //tinh so trang

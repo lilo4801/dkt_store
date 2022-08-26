@@ -15,7 +15,12 @@ class controller_login extends controller
                 //kiem tra password
                 if ($check->password == md5($c_password)) {
                     //dang nhap thanh cong
-                    $_SESSION["c_username"] = $check->customer_id;
+                    $_SESSION["customer_id"] = $check->customer_id;
+                    $order = $this->model->fetch_one("SELECT order_id FROM `tbl_order` where customer_id = '$check->customer_id' and trangthai = 0 ORDER BY ngaymua desc limit 1;");
+                    if($order) {
+                        $_SESSION["order_id"] = $order->order_id;
+                    }
+
                     //di chuyen den trang can chi dinh
                     header("location:index.php");
                 } else {
