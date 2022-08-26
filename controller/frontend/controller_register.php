@@ -28,7 +28,7 @@
                  }
              }
              $form_action = "index.php?controller=register";
-             include "view/backend/view_register.php";
+             include "view/frontend/view_register.php";
 
          }
     }

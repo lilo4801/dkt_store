@@ -1,7 +1,7 @@
 <div class="special-collection">
     <div class="tabs-container">
         <div class="clearfix">
-            <h2></h2>
+            <h2>Sản phẩm nổi bật</h2>
         </div>
     </div>
     <div class="tabs-content row">
@@ -19,7 +19,7 @@
                                         <img title="Sản phẩm ..." alt="Sản phẩm 2" class="img-responsive" src="public/upload/product/<?php echo $rows->c_img; ?>" style="max-width: 100px;">
                                     <?php } ?>
                                 </a>
-                                </div>
+                            </div>
                             <div class="info">
                                 <h3 class="name"><a href="index.php?controller=product_detail&id=5"><?php echo $rows->c_name; ?></a></h3>
                                 <p class="price-box"> <span class="special-price"> <span class="price product-price"> <?php echo $rows->c_price; ?> </span> </span> </p>
@@ -45,9 +45,10 @@
                         <li><a href="index.php?controller=product&p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
                     <?php } ?>
                 </ul>
-                <!-- end paging -->
+                <!-- end box product -->
+
             </div>
         </div>
     </div>
 </div>
-        
+

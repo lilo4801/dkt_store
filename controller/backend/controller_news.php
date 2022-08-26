@@ -37,13 +37,11 @@ class controller_news extends controller
         //thuc hien truy van csdl
         $arr = $this->model->fetch("select * from tbl_news order by pk_news_id desc limit $from,$record_per_page");
         //load view
-        $url = $_SERVER['REQUEST_URI'];
-        if (str_contains($url, "admin")) {
-            include "view/backend/view_admin_news.php";
-        } else {
-            include "view/backend/view_news.php";
 
-        }
+
+        include "view/backend/view_news.php";
+
+
         //-------------
     }
 }

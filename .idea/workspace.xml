@@ -26,18 +26,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe9fd66e-c6f0-44c9-98b5-fedec49c5c04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/backend/view_admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/backend/view_admin_login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/backend/view_admin_news.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/backend/view_admin_order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_category_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/frontend/controller_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/backend/view_admin_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_category_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/frontend/view_product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/backend/controller_home.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/backend/controller_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/backend/controller_logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/backend/controller_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/backend/controller_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/backend/controller_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/backend/controller_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/backend/controller_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/frontend/controller_register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_admin_login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_admin_news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/view/backend/view_layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/backend/view_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/backend/view_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/backend/view_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/frontend/view_register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,16 +88,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller/frontend" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\dkt_store\controller\frontend" />
+      <recent name="E:\code\DKTSTORE" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\dkt_store\view\frontend" />
+      <recent name="D:\project\dkt_store\controller\frontend" />
       <recent name="D:\project\dkt_store\public\frontend" />
       <recent name="D:\project\dkt_store\public" />
       <recent name="D:\project\dkt_store\public\" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\DKTSTORE" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -95,7 +118,7 @@
       <workItem from="1661322601911" duration="448000" />
       <workItem from="1661335815373" duration="1897000" />
       <workItem from="1661391396012" duration="20946000" />
-      <workItem from="1661477846424" duration="1752000" />
+      <workItem from="1661477846424" duration="6317000" />
     </task>
     <task id="LOCAL-00001" summary="rename DB and add gitignore">
       <created>1661314346746</created>
@@ -139,6 +162,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="rename DB and add gitignore" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1661483328772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661483328772" />
     <state x="2111" y="84" width="1649" height="863" key="CommitChangelistDialog2" timestamp="1661314346270">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
@@ -147,10 +174,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1661335812918" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1661479356393">
+    <state x="751" y="242" key="NewPhpClassDialog" timestamp="1661482262243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661479356393" />
+    <state x="751" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661482262243" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1661483913570">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661483913570" />
     <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1661314412382">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
@@ -159,10 +190,10 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2311" y="126" width="1250" height="843" key="find.popup/0.0.1536.816/1920.0.1920.1032@1920.0.1920.1032" timestamp="1661322238419" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1661395573543">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1661483132563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1661395573543" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1661483132563" />
     <state x="2543" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1661322108823">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>

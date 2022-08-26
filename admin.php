@@ -19,5 +19,5 @@
 		//gan thanh duong dan vat ly
 		$controller = ($controller!="")?"controller_$controller.php":"";
 		//load layout admin
-		include "view/backend/view_admin.php";
+		include "view/backend/view_layout.php";
 	}

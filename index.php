@@ -17,6 +17,6 @@
 
 
 
-    include "view/backend/view_layout.php";
+    include "view/frontend/view_layout.php";
 
 ?>
