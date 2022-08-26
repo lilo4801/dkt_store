@@ -20,6 +20,8 @@ class controller_product extends  controller {
 
                 $arr = $this->model->fetch("SELECT * FROM `tbl_product` where fk_category_product_id = $id order by pk_product_id desc limit $from,$record_per_page");
                 break;
+            default:
+                $arr = $this->model->fetch("select * from tbl_product order by pk_product_id desc limit $from,$record_per_page");
 
         }
         include "view/frontend/view_product.php";

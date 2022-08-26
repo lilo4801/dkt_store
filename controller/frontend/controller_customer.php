@@ -16,7 +16,7 @@ class controller_customer extends controller
                 $customer = $this->model->fetch_one("select * from tbl_customer where customer_id=$id");
                 //load view
 
-                include "view/backend/view_edit_customer.php";
+                include "view/frontend/view_edit_customer.php";
                 break;
             case "do_edit":
                 $hovaten = $_POST["hovaten"];

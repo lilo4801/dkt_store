@@ -183,8 +183,8 @@
                             <!-- end list hot news -->
                             <!-- list hot news -->
                             <?php
-                            if (file_exists("controller/frontend/controller_news.php"))
-                                include "controller/frontend/controller_news.php";
+                            if (file_exists("controller/frontend/controller_hotnews.php"))
+                                include "controller/frontend/controller_hotnews.php";
                             ?>
                             <!-- end list hot news -->
                         </div>
