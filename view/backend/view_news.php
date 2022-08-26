@@ -56,7 +56,7 @@
                              title="><?php echo $rows->c_name; ?>" class="img-responsive">
                     <?php } ?>
                 </a>
-                <h3><a href="#"><?php echo $rows->c_name; ?></a></h3>
+                <h3><a href="index.php?controller=add_edit_news&act=detail&id=<?php echo $rows->pk_news_id ?>"><?php echo $rows->c_name; ?></a></h3>
                 <p class="date">11/01/2016</p>
                 <p class="desc"><?php echo $rows->c_description; ?></p>
             </div>

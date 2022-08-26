@@ -123,6 +123,7 @@
                                 class="fa fa-bars"></i> </a>
                     <ul class="list-unstyled mobile-main-menu hidden-md hidden-lg" style="display:none">
                         <li class="active"><a href="index.php">Trang chủ</a></li>
+                        <li><a href="index.php?controller=gioithieu">Sản phẩm</a></li>
                         <li><a href="index.php?controller=gioithieu">Giới thiệu</a></li>
                         <li><a href="index.php?controller=tintuc">Tin tức</a></li>
                         <li><a href="index.php?controller=lienhe">Liên hệ</a></li>

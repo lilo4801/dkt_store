@@ -14,6 +14,9 @@
     $controller = ($controller != "") ? "controller_$controller.php" : "";
     //load layout admin
 
+
+
+
     include "view/backend/view_layout.php";
 
 ?>

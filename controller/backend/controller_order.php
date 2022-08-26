@@ -26,7 +26,14 @@
 			$from = $page * $record_per_page;
 			$arr = $this->model->fetch_array("select * from tbl_order inner join tbl_customer on tbl_order.customer_id = tbl_customer.customer_id order by trangthai,order_id desc limit $from,$record_per_page");
 			//load view
-			include "view/backend/view_order.php";
+            $url = $_SERVER['REQUEST_URI'];
+            if (str_contains($url, "admin")) {
+                include "view/backend/view_admin_order.php";
+            } else {
+                include "view/backend/view_order.php";
+
+            }
+
 			//--------------------
 		}
 	}
