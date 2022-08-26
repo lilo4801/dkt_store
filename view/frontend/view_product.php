@@ -39,11 +39,17 @@
                 <ul class="pagination pull-right" style="margin-top: 0px !important; padding-right: 15px;">
                     <li><a href="#">Trang</a></li>
                     <?php
-                    for($i = 1; $i <= $num_page; $i++)
-                    {
-                        ?>
-                        <li><a href="index.php?controller=product&p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                    <?php } ?>
+                     if(isset($_SESSION["category_id"])) {
+                            for($i = 1; $i <= $num_page; $i++) {?>
+                                <li><a href="index.php?controller=product&act=category&id=<?php echo $_SESSION["category_id"] ?>&p=<?php echo $i; ?>"><?php echo $i; ?></a></li
+                            <?php } ?>
+                     <?php }else{
+                        for($i = 1; $i <= $num_page; $i++)
+                        {
+                            ?>
+                            <li><a href="index.php?controller=product&p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+                        <?php } ?>
+                     <?php } ?>
                 </ul>
 
             </div>

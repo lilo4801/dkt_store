@@ -17,10 +17,11 @@ class controller_product extends  controller {
         $from = $p*$record_per_page;
         switch ($act) {
             case "category":
-
+                $_SESSION["category_id"] = $id;
                 $arr = $this->model->fetch("SELECT * FROM `tbl_product` where fk_category_product_id = $id order by pk_product_id desc limit $from,$record_per_page");
                 break;
             default:
+                unset($_SESSION["category_id"]);
                 $arr = $this->model->fetch("select * from tbl_product order by pk_product_id desc limit $from,$record_per_page");
 
         }
