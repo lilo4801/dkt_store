@@ -9,7 +9,10 @@ class controller_order extends controller
         if (!isset($_SESSION["customer_id"])) {
             header("location:index.php?controller=login");
         } else {
+
+
             $order_id = isset($_SESSION["order_id"]) && is_numeric($_SESSION["order_id"]) ? $_SESSION["order_id"] :0;
+
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 $product_id = isset($_GET['id']) && is_numeric($_GET['id']) ? $_GET["id"] : 0;
@@ -32,8 +35,7 @@ class controller_order extends controller
             }
 
 
-
-                $rows = $this->model->fetch("SELECT tbl_order.order_id,tbl_product.c_img,tbl_product.c_name,tbl_product.c_price,
+                $rows = $this->model->fetch("SELECT tbl_order_detail.order_detail_id,tbl_order.order_id,tbl_product.c_img,tbl_product.c_name,tbl_product.c_price,
                                                     tbl_order_detail.c_number
                                                     FROM tbl_order
                                                     INNER JOIN tbl_order_detail on tbl_order_detail.order_id = tbl_order.order_id

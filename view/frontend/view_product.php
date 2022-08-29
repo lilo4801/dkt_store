@@ -1,7 +1,7 @@
 <div class="special-collection">
     <div class="tabs-container">
         <div class="clearfix">
-            <h2>Sản phẩm nổi bật</h2>
+            <h2><?php if (isset($category_name)) echo $category_name;?></h2>
         </div>
     </div>
     <div class="tabs-content row">
@@ -39,8 +39,12 @@
                 <div style="clear: both;"></div>
                 <ul class="pagination pull-right" style="margin-top: 0px !important; padding-right: 15px;">
                     <li><a href="#">Trang</a></li>
-                    <?php
-                     if(isset($_SESSION["category_id"])) {
+                    <?php if (isset($_GET["key"])){
+                        for($i = 1; $i <= $num_page; $i++){?>
+
+                        <li><a href="index.php?controller=search&key=<?php echo $_GET["key"] ?>&p=<?php echo $i; ?>"><?php echo $i; ?></a></li
+
+                     <?php } }elseif(isset($_SESSION["category_id"])) {
                             for($i = 1; $i <= $num_page; $i++) {?>
                                 <li><a href="index.php?controller=product&act=category&id=<?php echo $_SESSION["category_id"] ?>&p=<?php echo $i; ?>"><?php echo $i; ?></a></li
                             <?php } ?>
@@ -51,6 +55,7 @@
                             <li><a href="index.php?controller=product&p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
                         <?php } ?>
                      <?php } ?>
+
                 </ul>
 
             </div>

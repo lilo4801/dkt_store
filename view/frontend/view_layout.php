@@ -39,7 +39,9 @@
         js.id = id;
         js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=1780127515631166";
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));
+
+</script>
 <header id="header">
     <div class="top-header">
         <div class="container">
@@ -53,7 +55,7 @@
                         <a href="index.php?controller=login"><i class="fa fa-user"></i> Đăng nhập</a>
                         <a href="index.php?controller=register"><i class="fa fa-user-plus"></i> Đăng ký</a>
                     <?php } else { ?>
-                        <a href="index.php?controller=customer&act=edit&id=<?php if(isset($_SESSION['c_username']) == true) echo $_SESSION["customer_id"] ?>"><i class="fa fa-user"></i>User</a>
+                        <a href="index.php?controller=customer&act=edit&id=<?php if(isset($_SESSION['customer_id']) ) echo $_SESSION["customer_id"] ?>"><i class="fa fa-user"></i>User</a>
                         <a href="index.php?controller=logout"><i class="fa fa-user"></i>Logout</a>
 
                     <?php } ?>

@@ -18,6 +18,7 @@ class controller_product extends  controller {
         switch ($act) {
             case "category":
                 $_SESSION["category_id"] = $id;
+                $category_name = isset($_GET["name"]) ? $_GET["name"] : "";
                 $arr = $this->model->fetch("SELECT * FROM `tbl_product` where fk_category_product_id = $id order by pk_product_id desc limit $from,$record_per_page");
                 break;
             default:
